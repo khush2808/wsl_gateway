@@ -3,7 +3,8 @@
 A simple Python gateway server that forwards requests from your Windows network to your WSL FastAPI server.
 
 ## Usage
-
+update : you just need to run python gateway.py- everything else has been handled.
+it will move incoming traffic as 3000 -> localhost:8000 and 3001 ->localhost:8001. 
 1. Make sure your FastAPI server in WSL is running and bound to `0.0.0.0:8000`
 2. Run the gateway on Windows:
 
